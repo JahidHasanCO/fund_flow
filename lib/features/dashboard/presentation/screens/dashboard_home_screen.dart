@@ -76,6 +76,7 @@ class _DashboardHomeScreenState extends State<DashboardHomeScreen> {
                     StatCard(
                       label: AppStrings.withdrawalBalance,
                       value: '\$12.4B',
+                      expand: false,
                     ),
                     Container(
                       width: double.infinity,
