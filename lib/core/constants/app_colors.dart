@@ -4,6 +4,7 @@ class AppColors {
   static const Color primary = Color(0xFFF4C025);
   static const Color primaryDark = Color(0xFFD4A017);
   static const Color dark = Color(0xFF121212);
+  static const Color darkVariant = Color(0xFF1A1A1A);
   static const Color darkCard = Color(0xB2231E10);
   static const Color darkInput = Color(0xFF1E1A0E);
   static const Color darkBorder = Color(0xFF342D18);

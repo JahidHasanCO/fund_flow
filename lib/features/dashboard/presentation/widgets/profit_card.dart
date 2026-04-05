@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../core/constants/constants.dart';
+import 'package:fund_flow/core/constants/constants.dart';
 
 class ProfitCard extends StatelessWidget {
   final String profit;

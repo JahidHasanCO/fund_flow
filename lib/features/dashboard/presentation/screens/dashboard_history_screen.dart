@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import '../../../config/route_names.dart';
-import '../../../core/constants/constants.dart';
+import 'package:fund_flow/core/constants/constants.dart';
 import '../widgets/dashboard_widgets.dart';
 
 class DashboardHistoryScreen extends StatefulWidget {
-  const DashboardHistoryScreen({Key? key}) : super(key: key);
+  const DashboardHistoryScreen({super.key});
 
   @override
   State<DashboardHistoryScreen> createState() => _DashboardHistoryScreenState();

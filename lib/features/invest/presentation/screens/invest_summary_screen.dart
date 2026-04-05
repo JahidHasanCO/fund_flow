@@ -1,19 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:fund_flow/core/constants/app_colors.dart';
 import 'package:go_router/go_router.dart';
-import '../../../config/route_names.dart';
-import '../../../core/constants/constants.dart';
+import 'package:fund_flow/config/route_names.dart';
+import 'package:fund_flow/core/constants/constants.dart';
 
 class InvestSummaryScreen extends StatefulWidget {
   const InvestSummaryScreen({Key? key}) : super(key: key);
 
   @override
-  State<InvestSummaryScreenState> createState() => _InvestSummaryScreenState();
+  State<InvestSummaryScreen> createState() => _InvestSummaryScreenState();
 }
 
 class _InvestSummaryScreenState extends State<InvestSummaryScreen> {
   String _selectedWithdrawal = 'Bkash';
-  String _selectedPayment = 'manual';
 
   @override
   Widget build(BuildContext context) {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import '../../../config/route_names.dart';
-import '../../../core/constants/constants.dart';
+import 'package:fund_flow/config/route_names.dart';
+import 'package:fund_flow/core/constants/constants.dart';
 import '../widgets/dashboard_widgets.dart';
 
 class DashboardHomeScreen extends StatefulWidget {
