@@ -52,7 +52,6 @@ class _CustomTextFieldState extends State<CustomTextField> {
             style: const TextStyle(
               color: AppColors.textSecondary,
               fontSize: 14,
-              fontFamily: 'Manrope',
               fontWeight: FontWeight.w500,
             ),
           ),
@@ -68,7 +67,6 @@ class _CustomTextFieldState extends State<CustomTextField> {
           style: const TextStyle(
             color: AppColors.textPrimary,
             fontSize: 16,
-            fontFamily: 'Manrope',
             fontWeight: FontWeight.w400,
           ),
           decoration: InputDecoration(
@@ -76,14 +74,12 @@ class _CustomTextFieldState extends State<CustomTextField> {
             hintStyle: const TextStyle(
               color: AppColors.textMuted,
               fontSize: 16,
-              fontFamily: 'Manrope',
               fontWeight: FontWeight.w400,
             ),
             prefixText: widget.prefix,
             prefixStyle: const TextStyle(
               color: AppColors.textPrimary,
               fontSize: 16,
-              fontFamily: 'Manrope',
               fontWeight: FontWeight.w600,
             ),
             suffixIcon: widget.obscureText

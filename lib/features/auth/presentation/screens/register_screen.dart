@@ -121,7 +121,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
                                           style: const TextStyle(
                                             color: AppColors.textSecondary,
                                             fontSize: 11,
-                                            fontFamily: 'Manrope',
                                             fontWeight: FontWeight.w400,
                                             height: 1.63,
                                           ),

@@ -103,7 +103,6 @@ class _DashboardHomeScreenState extends State<DashboardHomeScreen> {
                                     style: const TextStyle(
                                       color: Color(0xFFA1A1AA),
                                       fontSize: 12,
-                                      fontFamily: 'Manrope',
                                       fontWeight: FontWeight.w700,
                                       height: 1.63,
                                     ),
@@ -113,7 +112,6 @@ class _DashboardHomeScreenState extends State<DashboardHomeScreen> {
                                     style: const TextStyle(
                                       color: Color(0xFFA1A1AA),
                                       fontSize: 12,
-                                      fontFamily: 'Manrope',
                                       fontWeight: FontWeight.w400,
                                       height: 1.63,
                                     ),

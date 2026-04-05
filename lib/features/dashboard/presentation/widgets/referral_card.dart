@@ -57,7 +57,6 @@ class ReferralCard extends StatelessWidget {
                     style: const TextStyle(
                       color: Color(0xFF64748B),
                       fontSize: 12,
-                      fontFamily: 'Manrope',
                       fontWeight: FontWeight.w500,
                       height: 1.33,
                     ),
@@ -67,7 +66,6 @@ class ReferralCard extends StatelessWidget {
                     style: const TextStyle(
                       color: Colors.white,
                       fontSize: 16,
-                      fontFamily: 'Manrope',
                       fontWeight: FontWeight.w700,
                       height: 1.25,
                     ),
@@ -93,7 +91,6 @@ class ReferralCard extends StatelessWidget {
                   style: const TextStyle(
                     color: Color(0xFF10B981),
                     fontSize: 10,
-                    fontFamily: 'Manrope',
                     fontWeight: FontWeight.w700,
                     height: 1.50,
                     letterSpacing: 0.50,
@@ -106,7 +103,6 @@ class ReferralCard extends StatelessWidget {
                 style: const TextStyle(
                   color: Color(0xFF10B981),
                   fontSize: 16,
-                  fontFamily: 'Manrope',
                   fontWeight: FontWeight.w700,
                   height: 1.50,
                 ),

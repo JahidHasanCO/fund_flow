@@ -133,7 +133,6 @@ class _DashboardHistoryScreenState extends State<DashboardHistoryScreen> {
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 14,
-                fontFamily: 'Manrope',
                 fontWeight: FontWeight.w700,
               ),
             ),
@@ -142,7 +141,6 @@ class _DashboardHistoryScreenState extends State<DashboardHistoryScreen> {
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 14,
-                fontFamily: 'Manrope',
                 fontWeight: FontWeight.w600,
               ),
             ),
@@ -151,7 +149,6 @@ class _DashboardHistoryScreenState extends State<DashboardHistoryScreen> {
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 14,
-                fontFamily: 'Manrope',
                 fontWeight: FontWeight.w700,
               ),
             ),
@@ -161,7 +158,6 @@ class _DashboardHistoryScreenState extends State<DashboardHistoryScreen> {
               style: const TextStyle(
                 color: Colors.white,
                 fontSize: 14,
-                fontFamily: 'Manrope',
                 fontWeight: FontWeight.w700,
               ),
             ),
@@ -220,7 +216,6 @@ class _DashboardHistoryScreenState extends State<DashboardHistoryScreen> {
             style: const TextStyle(
               color: Color(0xFF94A3B8),
               fontSize: 14,
-              fontFamily: 'Manrope',
               fontWeight: FontWeight.w500,
             ),
           ),
@@ -229,7 +224,6 @@ class _DashboardHistoryScreenState extends State<DashboardHistoryScreen> {
             style: const TextStyle(
               color: Color(0xFF94A3B8),
               fontSize: 14,
-              fontFamily: 'Manrope',
               fontWeight: FontWeight.w400,
             ),
           ),
@@ -238,7 +232,6 @@ class _DashboardHistoryScreenState extends State<DashboardHistoryScreen> {
             style: const TextStyle(
               color: Color(0xFF94A3B8),
               fontSize: 14,
-              fontFamily: 'Manrope',
               fontWeight: FontWeight.w400,
             ),
           ),
@@ -247,7 +240,6 @@ class _DashboardHistoryScreenState extends State<DashboardHistoryScreen> {
             style: const TextStyle(
               color: Colors.white,
               fontSize: 14,
-              fontFamily: 'Manrope',
               fontWeight: FontWeight.w500,
             ),
           ),
@@ -265,7 +257,6 @@ class _DashboardHistoryScreenState extends State<DashboardHistoryScreen> {
           style: const TextStyle(
             color: Color(0xFFD4D4D8),
             fontSize: 14,
-            fontFamily: 'Manrope',
             fontWeight: FontWeight.w600,
             letterSpacing: 0.70,
           ),
@@ -311,7 +302,6 @@ class _TabButton extends StatelessWidget {
         style: TextStyle(
           color: isActive ? AppColors.primary : const Color(0xFF94A3B8),
           fontSize: 14,
-          fontFamily: 'Manrope',
           fontWeight: FontWeight.w700,
           letterSpacing: 0.35,
         ),

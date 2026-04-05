@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fund_flow/core/constants/app_colors.dart';
 import 'package:go_router/go_router.dart';
 import '../../../config/route_names.dart';
 import '../../../core/constants/constants.dart';
@@ -78,7 +79,6 @@ class _InvestSummaryScreenState extends State<InvestSummaryScreen> {
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 18,
-                  fontFamily: 'Manrope',
                   fontWeight: FontWeight.w700,
                   height: 1.25,
                   letterSpacing: -0.45,
@@ -140,7 +140,6 @@ class _InvestSummaryScreenState extends State<InvestSummaryScreen> {
       style: TextStyle(
         color: Colors.white,
         fontSize: 30,
-        fontFamily: 'Manrope',
         fontWeight: FontWeight.w800,
         height: 1.25,
         letterSpacing: -0.75,
@@ -206,7 +205,6 @@ class _InvestSummaryScreenState extends State<InvestSummaryScreen> {
             style: TextStyle(
               color: AppColors.primary.withValues(alpha: 0.8),
               fontSize: 14,
-              fontFamily: 'Manrope',
               fontWeight: FontWeight.w500,
               height: 1.43,
               letterSpacing: 1.40,
@@ -217,7 +215,6 @@ class _InvestSummaryScreenState extends State<InvestSummaryScreen> {
             style: TextStyle(
               color: Colors.white,
               fontSize: 30,
-              fontFamily: 'Manrope',
               fontWeight: FontWeight.w700,
               height: 1.20,
             ),
@@ -294,7 +291,6 @@ class _InvestSummaryScreenState extends State<InvestSummaryScreen> {
                   style: const TextStyle(
                     color: Color(0xFF64748B),
                     fontSize: 12,
-                    fontFamily: 'Manrope',
                     fontWeight: FontWeight.w500,
                     height: 1.33,
                   ),
@@ -304,7 +300,6 @@ class _InvestSummaryScreenState extends State<InvestSummaryScreen> {
                   style: const TextStyle(
                     color: Colors.white,
                     fontSize: 16,
-                    fontFamily: 'Manrope',
                     fontWeight: FontWeight.w700,
                     height: 1.25,
                   ),
@@ -344,7 +339,6 @@ class _InvestSummaryScreenState extends State<InvestSummaryScreen> {
             style: TextStyle(
               color: Colors.white,
               fontSize: 14,
-              fontFamily: 'Manrope',
               fontWeight: FontWeight.w700,
               height: 1.43,
               letterSpacing: 1.40,
@@ -370,7 +364,6 @@ class _InvestSummaryScreenState extends State<InvestSummaryScreen> {
                 style: TextStyle(
                   color: Color(0xFFD4D4D8),
                   fontSize: 14,
-                  fontFamily: 'Manrope',
                   fontWeight: FontWeight.w600,
                   height: 1.50,
                   letterSpacing: 0.70,
@@ -397,7 +390,6 @@ class _InvestSummaryScreenState extends State<InvestSummaryScreen> {
                     style: TextStyle(
                       color: Color(0xFFCBBC90),
                       fontSize: 16,
-                      fontFamily: 'Manrope',
                       fontWeight: FontWeight.w400,
                     ),
                   ),
@@ -433,7 +425,6 @@ class _InvestSummaryScreenState extends State<InvestSummaryScreen> {
             style: TextStyle(
               color: isSelected ? AppColors.primary : const Color(0xFFA1A1AA),
               fontSize: 16,
-              fontFamily: 'Manrope',
               fontWeight: isSelected ? FontWeight.w700 : FontWeight.w500,
               height: 1.50,
             ),
@@ -470,7 +461,6 @@ class _InvestSummaryScreenState extends State<InvestSummaryScreen> {
             style: TextStyle(
               color: Colors.white,
               fontSize: 14,
-              fontFamily: 'Manrope',
               fontWeight: FontWeight.w700,
               height: 1.43,
               letterSpacing: 1.40,
@@ -506,7 +496,6 @@ class _InvestSummaryScreenState extends State<InvestSummaryScreen> {
                         style: TextStyle(
                           color: Colors.grey[400],
                           fontSize: 12,
-                          fontFamily: 'Manrope',
                           fontWeight: FontWeight.w400,
                           height: 1.63,
                         ),
@@ -532,7 +521,6 @@ class _InvestSummaryScreenState extends State<InvestSummaryScreen> {
           style: const TextStyle(
             color: Color(0xFFD4D4D8),
             fontSize: 14,
-            fontFamily: 'Manrope',
             fontWeight: FontWeight.w600,
             height: 1.50,
             letterSpacing: 0.70,
@@ -559,7 +547,6 @@ class _InvestSummaryScreenState extends State<InvestSummaryScreen> {
               style: const TextStyle(
                 color: Color(0xFFCBBC90),
                 fontSize: 16,
-                fontFamily: 'Manrope',
                 fontWeight: FontWeight.w400,
               ),
             ),
@@ -596,7 +583,6 @@ class _InvestSummaryScreenState extends State<InvestSummaryScreen> {
             style: TextStyle(
               color: Colors.white,
               fontSize: 14,
-              fontFamily: 'Manrope',
               fontWeight: FontWeight.w700,
               height: 1.43,
               letterSpacing: 1.40,
@@ -607,7 +593,6 @@ class _InvestSummaryScreenState extends State<InvestSummaryScreen> {
             style: TextStyle(
               color: Color(0xFFA1A1AA),
               fontSize: 12,
-              fontFamily: 'Manrope',
               fontWeight: FontWeight.w400,
               height: 1.63,
             ),
@@ -646,7 +631,6 @@ class _InvestSummaryScreenState extends State<InvestSummaryScreen> {
               style: TextStyle(
                 color: Color(0xFF17171B),
                 fontSize: 16,
-                fontFamily: 'Manrope',
                 fontWeight: FontWeight.w700,
                 height: 1.50,
               ),

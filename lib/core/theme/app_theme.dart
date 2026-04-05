@@ -13,35 +13,63 @@ class AppTheme {
         centerTitle: true,
       ),
       textTheme: const TextTheme(
+        displayLarge: TextStyle(
+          color: AppColors.textPrimary,
+          fontSize: 24,
+          fontWeight: FontWeight.w700,
+          height: 1.56,
+          letterSpacing: -0.75,
+        ),
         headlineLarge: TextStyle(
           color: AppColors.textPrimary,
           fontSize: 24,
-          fontFamily: 'Manrope',
           fontWeight: FontWeight.w700,
+          height: 1.56,
         ),
         headlineMedium: TextStyle(
           color: AppColors.textPrimary,
           fontSize: 20,
-          fontFamily: 'Manrope',
           fontWeight: FontWeight.w700,
+        ),
+        titleLarge: TextStyle(
+          color: Colors.white,
+          fontSize: 18,
+          fontWeight: FontWeight.w700,
+          height: 1.25,
+          letterSpacing: -0.45,
         ),
         titleMedium: TextStyle(
           color: AppColors.textPrimary,
           fontSize: 16,
-          fontFamily: 'Manrope',
           fontWeight: FontWeight.w600,
+        ),
+        labelLarge: TextStyle(
+          color: Colors.white,
+          fontSize: 16,
+          fontWeight: FontWeight.w700,
+          height: 1.50,
+        ),
+        bodyLarge: TextStyle(
+          color: Color(0xFFA1A1AA),
+          fontSize: 16,
+          fontWeight: FontWeight.w400,
+          height: 1.63,
         ),
         bodyMedium: TextStyle(
           color: AppColors.textSecondary,
           fontSize: 16,
-          fontFamily: 'Manrope',
           fontWeight: FontWeight.w400,
         ),
         bodySmall: TextStyle(
           color: AppColors.textSecondary,
           fontSize: 14,
-          fontFamily: 'Manrope',
           fontWeight: FontWeight.w400,
+        ),
+        labelSmall: TextStyle(
+          color: Colors.white,
+          fontSize: 14,
+          fontWeight: FontWeight.w700,
+          height: 1.43,
         ),
       ),
       inputDecorationTheme: InputDecorationTheme(
@@ -71,13 +99,11 @@ class AppTheme {
         hintStyle: const TextStyle(
           color: AppColors.textMuted,
           fontSize: 16,
-          fontFamily: 'Manrope',
           fontWeight: FontWeight.w400,
         ),
         labelStyle: const TextStyle(
           color: AppColors.textSecondary,
           fontSize: 14,
-          fontFamily: 'Manrope',
           fontWeight: FontWeight.w500,
         ),
       ),
@@ -91,7 +117,6 @@ class AppTheme {
           ),
           textStyle: const TextStyle(
             fontSize: 18,
-            fontFamily: 'Manrope',
             fontWeight: FontWeight.w700,
           ),
         ),

@@ -28,7 +28,6 @@ class TermsFooter extends StatelessWidget {
                   style: TextStyle(
                     color: AppColors.textTertiary,
                     fontSize: 12,
-                    fontFamily: 'Manrope',
                     fontWeight: FontWeight.w400,
                   ),
                 ),
@@ -37,7 +36,6 @@ class TermsFooter extends StatelessWidget {
                   style: const TextStyle(
                     color: AppColors.primary,
                     fontSize: 12,
-                    fontFamily: 'Manrope',
                     fontWeight: FontWeight.w400,
                   ),
                   recognizer: null,
@@ -47,7 +45,6 @@ class TermsFooter extends StatelessWidget {
                   style: TextStyle(
                     color: AppColors.textTertiary,
                     fontSize: 12,
-                    fontFamily: 'Manrope',
                     fontWeight: FontWeight.w400,
                   ),
                 ),
@@ -56,7 +53,6 @@ class TermsFooter extends StatelessWidget {
                   style: const TextStyle(
                     color: AppColors.primary,
                     fontSize: 12,
-                    fontFamily: 'Manrope',
                     fontWeight: FontWeight.w400,
                   ),
                 ),
@@ -65,7 +61,6 @@ class TermsFooter extends StatelessWidget {
                   style: const TextStyle(
                     color: AppColors.primary,
                     fontSize: 12,
-                    fontFamily: 'Manrope',
                     fontWeight: FontWeight.w400,
                   ),
                 ),

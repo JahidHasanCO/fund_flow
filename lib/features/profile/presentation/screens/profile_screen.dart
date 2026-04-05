@@ -32,7 +32,7 @@ class ProfileScreen extends StatelessWidget {
             onTap: () {},
             child: Container(width: 48, height: 48, color: Colors.transparent),
           ),
-          const Text('Account Profile', style: TextStyle(color: Colors.white, fontSize: 18, fontFamily: 'Manrope', fontWeight: FontWeight.w700)),
+          const Text('Account Profile', style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.w700)),
           GestureDetector(
             onTap: () {},
             child: Container(width: 48, height: 48, color: Colors.transparent),

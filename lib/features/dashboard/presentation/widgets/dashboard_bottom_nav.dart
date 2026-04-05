@@ -55,7 +55,6 @@ class DashboardBottomNav extends StatelessWidget {
                         ? AppColors.primary
                         : const Color(0xFF64748B),
                     fontSize: 10,
-                    fontFamily: 'Manrope',
                     fontWeight: FontWeight.w700,
                     height: 1.50,
                     letterSpacing: -0.50,

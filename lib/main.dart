@@ -18,7 +18,7 @@ void main() {
 }
 
 class FundFlowApp extends StatelessWidget {
-  const FundFlowApp({Key? key}) : super(key: key);
+  const FundFlowApp({super.key});
 
   @override
   Widget build(BuildContext context) {

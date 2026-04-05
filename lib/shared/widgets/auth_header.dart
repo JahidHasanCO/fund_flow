@@ -50,7 +50,6 @@ class AuthHeader extends StatelessWidget {
                       style: const TextStyle(
                         color: Colors.white,
                         fontSize: 24,
-                        fontFamily: 'Manrope',
                         fontWeight: FontWeight.w700,
                         height: 1.56,
                         letterSpacing: -0.75,
@@ -69,7 +68,6 @@ class AuthHeader extends StatelessWidget {
                       style: const TextStyle(
                         color: AppColors.textSecondary,
                         fontSize: 16,
-                        fontFamily: 'Manrope',
                         fontWeight: FontWeight.w400,
                         height: 1.50,
                       ),

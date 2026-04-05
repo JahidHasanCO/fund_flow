@@ -52,7 +52,6 @@ class ProfitCard extends StatelessWidget {
                 style: const TextStyle(
                   color: Color(0xFF94A3B8),
                   fontSize: 14,
-                  fontFamily: 'Manrope',
                   fontWeight: FontWeight.w500,
                   height: 1.43,
                   letterSpacing: 1.40,
@@ -66,7 +65,6 @@ class ProfitCard extends StatelessWidget {
                     style: const TextStyle(
                       color: AppColors.primary,
                       fontSize: 36,
-                      fontFamily: 'Manrope',
                       fontWeight: FontWeight.w800,
                       height: 1.25,
                     ),
@@ -77,7 +75,6 @@ class ProfitCard extends StatelessWidget {
                     style: const TextStyle(
                       color: AppColors.primary,
                       fontSize: 14,
-                      fontFamily: 'Manrope',
                       fontWeight: FontWeight.w600,
                       height: 1.43,
                     ),
@@ -107,7 +104,6 @@ class ProfitCard extends StatelessWidget {
                           style: const TextStyle(
                             color: Color(0xFF64748B),
                             fontSize: 12,
-                            fontFamily: 'Manrope',
                             fontWeight: FontWeight.w500,
                             height: 1.33,
                           ),
@@ -118,7 +114,6 @@ class ProfitCard extends StatelessWidget {
                           style: const TextStyle(
                             color: Colors.white,
                             fontSize: 20,
-                            fontFamily: 'Manrope',
                             fontWeight: FontWeight.w700,
                             height: 1.25,
                           ),
@@ -134,7 +129,6 @@ class ProfitCard extends StatelessWidget {
                           style: const TextStyle(
                             color: Color(0xFF64748B),
                             fontSize: 12,
-                            fontFamily: 'Manrope',
                             fontWeight: FontWeight.w500,
                             height: 1.33,
                           ),
@@ -146,7 +140,6 @@ class ProfitCard extends StatelessWidget {
                           style: const TextStyle(
                             color: Colors.white,
                             fontSize: 14,
-                            fontFamily: 'Manrope',
                             fontWeight: FontWeight.w700,
                             height: 1.25,
                           ),

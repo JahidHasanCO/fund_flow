@@ -116,7 +116,6 @@ class _PhoneVerificationScreenState extends State<PhoneVerificationScreen> {
                                           style: const TextStyle(
                                             color: AppColors.textSecondary,
                                             fontSize: 11,
-                                            fontFamily: 'Manrope',
                                             fontWeight: FontWeight.w400,
                                             height: 1.63,
                                           ),

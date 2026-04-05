@@ -64,7 +64,6 @@ class DashboardTopBar extends StatelessWidget {
                     style: const TextStyle(
                       color: Color(0xFFCBBC90),
                       fontSize: 10,
-                      fontFamily: 'Manrope',
                       fontWeight: FontWeight.w700,
                       height: 1.50,
                       letterSpacing: 1,
@@ -75,7 +74,6 @@ class DashboardTopBar extends StatelessWidget {
                     style: const TextStyle(
                       color: Colors.white,
                       fontSize: 18,
-                      fontFamily: 'Manrope',
                       fontWeight: FontWeight.w700,
                       height: 1,
                     ),

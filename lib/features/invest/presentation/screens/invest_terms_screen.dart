@@ -75,7 +75,6 @@ class _InvestTermsScreenState extends State<InvestTermsScreen> {
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 18,
-                  fontFamily: 'Manrope',
                   fontWeight: FontWeight.w700,
                   height: 1.25,
                   letterSpacing: -0.45,
@@ -140,7 +139,6 @@ class _InvestTermsScreenState extends State<InvestTermsScreen> {
           style: TextStyle(
             color: Color(0xFFA1A1AA),
             fontSize: 16,
-            fontFamily: 'Manrope',
             fontWeight: FontWeight.w400,
             height: 1.63,
           ),
@@ -150,7 +148,6 @@ class _InvestTermsScreenState extends State<InvestTermsScreen> {
           style: TextStyle(
             color: Color(0xFFA1A1AA),
             fontSize: 16,
-            fontFamily: 'Manrope',
             fontWeight: FontWeight.w400,
             height: 1.63,
           ),
@@ -160,7 +157,6 @@ class _InvestTermsScreenState extends State<InvestTermsScreen> {
           style: TextStyle(
             color: Color(0xFFA1A1AA),
             fontSize: 16,
-            fontFamily: 'Manrope',
             fontWeight: FontWeight.w400,
             height: 1.63,
           ),
@@ -170,7 +166,6 @@ class _InvestTermsScreenState extends State<InvestTermsScreen> {
           style: TextStyle(
             color: Color(0xFFA1A1AA),
             fontSize: 16,
-            fontFamily: 'Manrope',
             fontWeight: FontWeight.w400,
             height: 1.63,
           ),
@@ -218,7 +213,6 @@ class _InvestTermsScreenState extends State<InvestTermsScreen> {
           style: TextStyle(
             color: Colors.white,
             fontSize: 14,
-            fontFamily: 'Manrope',
             fontWeight: FontWeight.w700,
             height: 1.43,
           ),
@@ -262,7 +256,6 @@ class _InvestTermsScreenState extends State<InvestTermsScreen> {
                 style: TextStyle(
                   color: Color(0xFF17171B),
                   fontSize: 16,
-                  fontFamily: 'Manrope',
                   fontWeight: FontWeight.w700,
                   height: 1.50,
                 ),

@@ -74,7 +74,6 @@ class _PersonalInfoScreenState extends State<PersonalInfoScreen> {
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 18,
-                  fontFamily: 'Manrope',
                   fontWeight: FontWeight.w700,
                   height: 1.25,
                   letterSpacing: -0.45,
@@ -139,7 +138,6 @@ class _PersonalInfoScreenState extends State<PersonalInfoScreen> {
           style: TextStyle(
             color: Colors.white,
             fontSize: 30,
-            fontFamily: 'Manrope',
             fontWeight: FontWeight.w800,
             height: 1.25,
             letterSpacing: -0.75,
@@ -152,7 +150,6 @@ class _PersonalInfoScreenState extends State<PersonalInfoScreen> {
             style: TextStyle(
               color: Color(0xFFA1A1AA),
               fontSize: 16,
-              fontFamily: 'Manrope',
               fontWeight: FontWeight.w400,
               height: 1.63,
             ),
@@ -188,7 +185,6 @@ class _PersonalInfoScreenState extends State<PersonalInfoScreen> {
           style: const TextStyle(
             color: Color(0xFFD4D4D8),
             fontSize: 14,
-            fontFamily: 'Manrope',
             fontWeight: FontWeight.w600,
             height: 1.50,
             letterSpacing: 0.70,
@@ -215,7 +211,6 @@ class _PersonalInfoScreenState extends State<PersonalInfoScreen> {
               style: const TextStyle(
                 color: Color(0xFFCBBC90),
                 fontSize: 16,
-                fontFamily: 'Manrope',
                 fontWeight: FontWeight.w400,
               ),
             ),
@@ -235,7 +230,6 @@ class _PersonalInfoScreenState extends State<PersonalInfoScreen> {
           style: TextStyle(
             color: Color(0xFFD4D4D8),
             fontSize: 14,
-            fontFamily: 'Manrope',
             fontWeight: FontWeight.w600,
             height: 1.50,
             letterSpacing: 0.70,
@@ -280,7 +274,6 @@ class _PersonalInfoScreenState extends State<PersonalInfoScreen> {
           style: const TextStyle(
             color: Color(0xFFA1A1AA),
             fontSize: 16,
-            fontFamily: 'Manrope',
             fontWeight: FontWeight.w500,
             height: 1.50,
           ),
@@ -299,7 +292,6 @@ class _PersonalInfoScreenState extends State<PersonalInfoScreen> {
           style: TextStyle(
             color: Color(0xFFD4D4D8),
             fontSize: 14,
-            fontFamily: 'Manrope',
             fontWeight: FontWeight.w600,
             height: 1.50,
             letterSpacing: 0.70,
@@ -343,7 +335,6 @@ class _PersonalInfoScreenState extends State<PersonalInfoScreen> {
           style: TextStyle(
             color: isSelected ? AppColors.primary : const Color(0xFFA1A1AA),
             fontSize: 16,
-            fontFamily: 'Manrope',
             fontWeight: isSelected ? FontWeight.w700 : FontWeight.w500,
             height: 1.50,
           ),
@@ -387,7 +378,6 @@ class _PersonalInfoScreenState extends State<PersonalInfoScreen> {
             style: TextStyle(
               color: Colors.white,
               fontSize: 16,
-              fontFamily: 'Manrope',
               fontWeight: FontWeight.w700,
               height: 1.50,
             ),
@@ -400,7 +390,6 @@ class _PersonalInfoScreenState extends State<PersonalInfoScreen> {
               style: TextStyle(
                 color: Color(0xFF9CA3AF),
                 fontSize: 12,
-                fontFamily: 'Manrope',
                 fontWeight: FontWeight.w400,
                 height: 1.33,
               ),
@@ -423,7 +412,6 @@ class _PersonalInfoScreenState extends State<PersonalInfoScreen> {
               style: TextStyle(
                 color: Color(0xFFF4C025),
                 fontSize: 12,
-                fontFamily: 'Manrope',
                 fontWeight: FontWeight.w700,
                 height: 1.33,
                 letterSpacing: 1.20,
@@ -459,7 +447,6 @@ class _PersonalInfoScreenState extends State<PersonalInfoScreen> {
               style: TextStyle(
                 color: Colors.grey[400],
                 fontSize: 12,
-                fontFamily: 'Manrope',
                 fontWeight: FontWeight.w400,
                 height: 1.63,
               ),
@@ -499,7 +486,6 @@ class _PersonalInfoScreenState extends State<PersonalInfoScreen> {
               style: TextStyle(
                 color: Color(0xFF17171B),
                 fontSize: 16,
-                fontFamily: 'Manrope',
                 fontWeight: FontWeight.w700,
                 height: 1.50,
               ),

@@ -33,7 +33,6 @@ class StatCard extends StatelessWidget {
               style: const TextStyle(
                 color: Color(0xFF64748B),
                 fontSize: 12,
-                fontFamily: 'Manrope',
                 fontWeight: FontWeight.w500,
                 height: 1.33,
                 letterSpacing: 1.20,
@@ -45,7 +44,6 @@ class StatCard extends StatelessWidget {
               style: const TextStyle(
                 color: Colors.white,
                 fontSize: 24,
-                fontFamily: 'Manrope',
                 fontWeight: FontWeight.w700,
                 height: 1.33,
               ),
